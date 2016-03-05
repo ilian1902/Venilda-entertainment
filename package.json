@@ -1,0 +1,22 @@
+{
+  "name": "Venilda",
+  "version": "1.0.0",
+  "description": "Games apps",
+  "main": "index.js",
+  "local-web-server": {
+    "port": 8100,
+    "forbid": "*.json"
+  },
+  "scripts": {
+    "start": "ws"
+  },
+  "author": "Ilian",
+  "license": "MIT",
+  "devDependencies": {
+    "local-web-server": "^1.1.2"
+  }
+
+
+}
+
+

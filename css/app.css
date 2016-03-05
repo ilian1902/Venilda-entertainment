@@ -1,0 +1,18 @@
+body{
+    background-image: url("/img/background.jpg");
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+#header{
+    background-color: #8c8c8c;
+}
+
+
+#footer img{
+    width: 30%;
+}
