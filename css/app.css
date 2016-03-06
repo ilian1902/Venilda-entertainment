@@ -4,15 +4,19 @@ body{
 a{
     text-decoration: none;
 }
-img{
-    width: 100%;
-    height: auto;
-}
+/*img{*/
+     /*max-width: 100%;*/
+     /*height: auto;*/
+ /*}*/
 #header{
     background-color: #8c8c8c;
 }
 
 
-#footer img{
+#footer ul li a img{
     width: 30%;
+    height: 30%;
+}
+.logo img{
+    width: 10%;
 }
