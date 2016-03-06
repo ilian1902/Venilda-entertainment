@@ -237,3 +237,5 @@ _Pvt_Extensions
 
 # WebStorm - .idea
 .idea/
+**/.idea/workspace.xml
+**/.idea/tasks.xml
