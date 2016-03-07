@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    var config = function config($routeProvider, $locationProvider, $httpProvider, routeResolversProvider) {
+    var config = function config($routeProvider, $locationProvider) {
         var CONTROLLER_VIEW_MODEL_NAME = 'vm';
 
         $locationProvider.html5Mode(true);
@@ -28,7 +28,7 @@
     angular.module('venildaApp.controllers', []);
 
     angular.module('venildaApp', ['ngRoute', 'venildaApp.controllers'])
-        .config(['$routeProvider', '$locationProvider', '$httpProvider', 'routeResolversProvider', config]);
+        .config(['$routeProvider', '$locationProvider', config]);
 
 
 }());
