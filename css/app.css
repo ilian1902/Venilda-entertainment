@@ -3,16 +3,17 @@
     /*padding: 0;*/
 /*}*/
 
-.nav > li > a {
-    padding: 0;
-    margin: 0;
-    /*width: 140px;*/
-}
+/*.nav > li > a {*/
+    /*padding: 0;*/
+    /*margin: 0;*/
+    /*!*width: 140px;*!*/
+/*}*/
 .nav > li > a > img {
     max-height: 45px;
 }
 body{
-    background-image: url("/img/background.png");
+    background-image: url("/img/background-down.png");
+    background-repeat: repeat-y;
 }
 a{
     text-decoration: none;

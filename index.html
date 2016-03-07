@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Venilda Entertainment</title>
 
-    <base href="/" />
+    <base href="/"/>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="css/app.css">
     <!--<script src="bower_components/angular/angular.js"></script>-->
@@ -14,17 +14,19 @@
 </head>
 <body ng-app="venildaApp" ng-cloak>
 <div class="wrapper">
-    <header id="header" class="text-center">
+    <header id="header">
         <nav class="navbar navbar-inverse">
             <div class="container row">
-                <div class="logo col-md-4 col-md-offset-2">
-                    <a href="/">
-                        <img src="img/VI-logo.png">VENILDA
-                        Entertainment
-                    </a>
+                <div class=" navbar-header logo col-md-4">
+                    <div class="navbar-brand">
+                        <a href="/">
+                            <img src="img/VI-logo.png"><strong>VENILDA</strong>
+                            Entertainment
+                        </a>
+                    </div>
                 </div>
                 <div class="navbar-collapse collapse col-md-4">
-                    <ul class="nav navbar-nav">
+                    <ul class="nav navbar-nav navbar-right">
                         <li>
                             <a href="/">Home</a>
                         </li>
@@ -42,10 +44,11 @@
                         </li>
                     </ul>
                 </div>
-                <div class="form-group col-md-2">
+                <div class="navbar-form form-group col-md-2">
                     <input type="text" class="form-control" placeholder="Search">
+                    <button type="submit" class="btn btn-default">Submit</button>
                 </div>
-                <button type="submit" class="btn btn-default">Submit</button>
+
             </div>
         </nav>
     </header>
