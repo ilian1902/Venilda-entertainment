@@ -22,6 +22,16 @@
                 controller: 'AppController',
                 controllerAs: CONTROLLER_VIEW_MODEL_NAME
             })
+            .when('/contact', {
+                templateUrl: 'templates/contact-view.html',
+                controller: 'ContactController',
+                controllerAs: CONTROLLER_VIEW_MODEL_NAME
+            })
+            .when('/abouth', {
+                templateUrl: 'templates/abouth-view.html',
+                controller: 'AbouthController',
+                controllerAs: CONTROLLER_VIEW_MODEL_NAME
+            })
             .otherwise({redirectTo: '/'});
     }
 

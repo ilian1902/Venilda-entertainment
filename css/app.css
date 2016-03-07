@@ -12,7 +12,7 @@
     max-height: 45px;
 }
 body{
-    background-image: url("/img/background.jpg");
+    background-image: url("/img/background.png");
 }
 a{
     text-decoration: none;
@@ -27,4 +27,7 @@ a{
 
 .logo img{
     width: 10%;
+}
+#footer{
+    background-image: url("/img/sidewalk.png");
 }
