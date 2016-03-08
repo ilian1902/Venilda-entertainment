@@ -1,13 +1,13 @@
-/*html, body, div, form, img, h1, h2, h3, h4, h5, h6, a, p, ul, li, span {*/
-    /*margin: 0;*/
-    /*padding: 0;*/
-/*}*/
+img{
+max-width: 100%;
+height: auto;
+}
 
-/*.nav > li > a {*/
-    /*padding: 0;*/
-    /*margin: 0;*/
-    /*!*width: 140px;*!*/
-/*}*/
+h1, h2{
+    margin: 0;
+    padding: 0;
+
+}
 .nav > li > a > img {
     max-height: 45px;
 }
@@ -18,17 +18,71 @@ body{
 a{
     text-decoration: none;
 }
-/*img{*/
-     /*max-width: 100%;*/
-     /*height: auto;*/
- /*}*/
 #header{
     background-color: #8c8c8c;
 }
 
-.logo img{
-    width: 10%;
+#header .navbar{
+    margin-bottom: 0;
+
 }
-#footer{
+#header .navbar-inverse{
+    background-color: #9f9f9f;
+    color: #0f0f0f;
+    border-radius: 0;
+}
+#header .navbar-inverse li a {
+    color: #0f0f0f;
+}
+#header .navbar-inverse li a:hover {
+    color: #fff;
+}
+
+#header .logo > a > strong{
+    margin-right: 10px;
+    color: #0f0f0f;
+    text-decoration: none;
+    font-size: 2.0rem;
+}
+#header .logo > a{
+    color: #0f0f0f;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.logo img{
+    width: 15%;
+}
+
+#content{
+    height: 100%;
+    color: #fff;
+}
+#content .contacts{
+    height: 480px;
+}
+#content .contacts .about-google-maps{
+    height: 440px;
+    margin-top: 20px;
+}
+#content .contact-info{
+    margin-top: 100px;
+}
+#content .contact-info h3{
+    text-transform: uppercase;
+}
+
+#content .home h1{
+    margin: 20px;
+}
+
+#content .home .content-view{
+    margin: 100px;
+}
+
+
+#footer > .navbar{
     background-image: url("/img/sidewalk.png");
+    height: 140px;
+    border-radius: 0;
 }
